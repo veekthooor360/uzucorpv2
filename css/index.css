@@ -1,0 +1,526 @@
+/*general*/
+
+ .mobile{
+    display: none !important;
+  }
+
+hr {
+    border-top: 3px solid #FED706;
+    max-width: 200px;
+}
+
+ /*.card{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 20px !important;
+  }*/
+/*
+------------------------------------------
+
+------------------------------------------
+*/
+/*Tiny device(like my current phone:tecno-y2*/
+
+
+@media (max-width:767px) {
+    
+     .jumbotron {
+        position: relative;
+        height: 100vh;
+        width: 100vw;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white !important;
+    }
+
+.jumbotron::before {
+    content: "";
+    background-image:url(BINARY%20WORLD%202.png) !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute !important;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.68;
+
+}
+    
+    
+    
+    .jumbotron h1 {
+     position: absolute;
+        top: 30% !important;
+     color: #000;
+     font-size: 2.8rem !important;
+        margin-top: 50px!important;
+     line-height: 0.9;
+     text-align: center;
+     font-weight: 700 !important;
+
+     word-spacing: 0.5em;
+     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+ }
+    
+    
+    
+    .jumbotron .lead {
+      position: absolute;
+      text-align:;
+
+      font-size: 5px !important;
+  
+      font-weight: 300 !important;
+  }
+    #demo {
+        font-size: 15px !important;
+    }
+.steady{
+    max-width: auto;
+    max-height: 100px;
+}
+
+  .arrow{
+    color: black !important;
+    background-color: #FED706 !important;
+    border:1px black solid !important;
+    padding-right: 70px !important;
+    padding-left: 70px !important;
+    
+
+  }
+    
+    
+    
+    
+  .card-img{
+    height:50% !important;
+    width:50% !important;
+  }
+  .arrow{
+    color: black !important;
+    background-color:#FED706 !important;
+    border:1px black solid !important;
+    padding-right: 70px !important;
+    padding-left: 70px !important;
+  
+  }
+  
+  .btn{
+    margin-top:300px;
+   
+  }
+
+
+    .footer-menu {
+        background-color: white !important;
+       
+        border-top-right-radius: 50%;
+        border-top-left-radius: 50%;
+    }
+    
+    
+    
+  
+
+}
+
+/*Small devices (tablets, 768px and up) */
+@media (max-width:992px) {
+  /*
+  ------------------------------------------------------
+  JUMBOTRON
+  ------------------------------------------------------
+  */
+  
+  .arrow{
+    margin-bottom: -3px ;
+  }
+  
+  .jumbotron h1{
+    font-size: 40px;
+
+    text-align: center;
+    word-spacing: 2em;
+    font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700 !important;
+  }
+  
+  .jumbotron .lead{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 21px !important;
+    line-height: 30px;
+   
+  }
+  
+  .arrow{
+    color: black !important;
+    background-color: #ffca04 !important;
+    border:1px black solid !important;
+    padding-right: 70px !important;
+    padding-left: 70px !important;
+    margin-top:25px;
+  }
+
+ 
+
+
+  
+  
+  
+
+  blockquote {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-style: italic;
+    margin: 0.25em 0;
+    padding: 0.35em 40px;
+    line-height: 1.45;
+    position: relative;
+    color: #383838;
+  }
+  
+  
+
+
+
+
+
+/* Medium devices (desktops, 992px and up) 
+@media (min-width: 992px) {
+  WORK IN PROGRESS
+}
+
+/*Large devices (large desktops, 1200px and up) */
+
+  
+/*
+------------------------------------------
+NAVBAR
+------------------------------------------
+*/
+
+.navbar-nav > .nav-item{
+  margin-right:10px;
+  font-size: 16px;
+}
+
+.activeItem{
+  border-bottom: 4px #FED706 solid;
+}
+
+.navbar-brand{
+
+ /* left: 8%;*/
+  margin:0;
+  bottom:10%;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
+
+/*
+----------------------------------------------------
+BELT
+----------------------------------------------------
+*/
+.frame{
+  width:350px
+}
+ 
+
+    .jumbotron {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white !important;
+    }
+
+.jumbotron::before {
+    content: "";
+    background-image: url(binarymap.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.68;
+}
+
+ .jumbotron h1 {
+     position: relative;
+     color: #000;
+     font-size: 4.8rem;
+     line-height: 0.9;
+     text-align: center;
+     font-weight: 700 !important;
+
+     word-spacing: 0.5em;
+     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+ }
+ 
+  .jumbotron .lead {
+      position: relative;
+      text-align: center;
+
+      font-size: 38px !important;
+      line-height: 50px;
+      font-weight: 600 !important;
+  }
+.steady{
+    max-width: auto;
+    max-height: 100px;
+}
+
+  .arrow{
+    color: black !important;
+    background-color: #FED706 !important;
+    border:1px black solid !important;
+    padding-right: 70px !important;
+    padding-left: 70px !important;
+    
+
+  }
+
+  .btn{
+    position: relative;
+    margin-top: 45px;
+    margin-bottom: 30px !important;
+    text-align: center !important;
+      font-weight: 500;
+    }
+
+ 
+
+/*about us section*/
+
+  
+  
+
+  .temp{
+    margin-top: 20px !important;
+    background-color: whitesmoke;
+    min-height: 10vh;
+    margin-top: 30px !important;
+  }
+  
+  
+ 
+
+  .smoke{
+    background-color: whitesmoke;
+    height:550px;
+  }
+
+  .card-img{
+    height:350px;
+    width:350px !important;
+  }
+
+  .trust{
+    height:60vh;
+    margin-top: -1px !important;
+  }
+  
+  
+
+ 
+  
+  .card p {
+    font-size: larger;
+  }
+
+  
+
+  .foot{
+    background-color:   #262626;
+    height: 500px;
+  }
+
+  .foot h2{
+    color: #FED706;
+    text-align: center;
+    font-weight: 700;
+  }
+
+  .foot p{
+    color:yellow;
+  }
+
+  .connect{
+    border:1px solid yellow;
+    background-color: yellow;
+  }
+
+  small p{
+    color: black;
+  }
+
+ 
+
+
+/*our process css*/
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: #FED706;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+ 
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+
+
+
+
+/*testimonials*/
+.testimonial-car {
+   background-color: #F7F7F7;
+   
+}
+
+
+
+
+
+
+
+#car-wrap {
+   justify-content: center;
+    display: flex;
+    align-items: center;
+    
+    font-family: 'Open Sans'
+}
+
+#car {
+    
+    max-width: 900px;
+   
+}
+
+.carousel-caption {
+    position: initial;
+    z-index: 10;
+    padding: 5rem 8rem;
+    color: rgba(78, 77, 77, 0.856);
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 2rem
+}
+
+@media(max-width:767px) {
+    .carousel-caption {
+        position: initial;
+        z-index: 10;
+        padding: 3rem 2rem;
+        color: rgba(78, 77, 77, 0.856);
+        text-align: center;
+        font-size: 0.7rem;
+        font-style: italic;
+        font-weight: bold;
+        line-height: 1.5rem
+    }
+}
+
+.carousel-caption img {
+    width: 6rem;
+    border-radius: 5rem;
+    margin-top: 2rem
+}
+
+@media(max-width:767px) {
+    .carousel-caption img {
+        width: 4rem;
+        border-radius: 4rem;
+        margin-top: 1rem
+    }
+}
+
+#image-caption {
+    font-style: normal;
+    font-size: 1rem;
+    margin-top: 0.5rem
+}
+
+@media(max-width:767px) {
+    #image-caption {
+        font-style: normal;
+        font-size: 0.6rem;
+        margin-top: 0.5rem
+    }
+}
+
+.icon-bg {
+    background-color: #000;
+    color:  #FED706;
+    padding: 1.4rem
+}
+
+@media(max-width:767px) {
+    i {
+        padding: 0.8rem
+    }
+}
+
+.carousel-control-prev {
+    justify-content: flex-start
+}
+
+.carousel-control-next {
+    justify-content: flex-end
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    transition: none;
+    opacity: unset
+}
+
+
+
+
+
+
+
+
+
