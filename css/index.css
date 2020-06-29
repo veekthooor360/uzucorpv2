@@ -1,10 +1,19 @@
 /*general*/
-
- .mobile{
-    display: none !important;
+.bg-black {
+    background-color:#263238 !important;
+    color: #FED706;
+}
+.bg-yellow{
+    background-color:#FED706 !important;
+    color: black;
+}
+  .card-img{
+    height:350px;
+    width:350px !important;
   }
 
-hr {
+
+hr.dividing {
     border-top: 3px solid #FED706;
     max-width: 200px;
 }
@@ -23,6 +32,13 @@ hr {
 
 
 @media (max-width:767px) {
+   
+    
+    .navbar-brand {
+    transform: translateX(-50%);
+    left: 50%;
+    position: relative;
+  }
     
      .jumbotron {
         position: relative;
@@ -52,7 +68,7 @@ hr {
     
     
     .jumbotron h1 {
-     position: absolute;
+     position: relative;
         top: 30% !important;
      color: #000;
      font-size: 2.8rem !important;
@@ -115,11 +131,11 @@ hr {
   }
 
 
+
     .footer-menu {
-        background-color: white !important;
-       
-        border-top-right-radius: 50%;
+        background-color:  #FED706 !important;
         border-top-left-radius: 50%;
+        border-top-right-radius: 50%
     }
     
     
@@ -128,6 +144,10 @@ hr {
 
 }
 
+
+
+
+
 /*Small devices (tablets, 768px and up) */
 @media (max-width:992px) {
   /*
@@ -135,7 +155,12 @@ hr {
   JUMBOTRON
   ------------------------------------------------------
   */
-  
+  .navbar-brand {
+    transform: translateX(-50%);
+    left: 50%;
+    position: relative;
+  }
+    
   .arrow{
     margin-bottom: -3px ;
   }
@@ -167,24 +192,30 @@ hr {
   }
 
  
+    
+    
+ .carousel-caption img {
+        width: 4rem;
+        border-radius: 4rem;
+        margin-top: 1rem
+    }
+
+  
+  
+  
+
+    .footer-menu {
+        background-color:  #FED706 !important;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%
+    }
+  
+ 
+  
+}
 
 
-  
-  
-  
 
-  blockquote {
-    font-family: Georgia, serif;
-    font-size: 18px;
-    font-style: italic;
-    margin: 0.25em 0;
-    padding: 0.35em 40px;
-    line-height: 1.45;
-    position: relative;
-    color: #383838;
-  }
-  
-  
 
 
 
@@ -224,19 +255,7 @@ NAVBAR
 .navbar-toggler-icon:focus {
     outline: none;
     box-shadow: none;
-}
-
-
-
-/*
-----------------------------------------------------
-BELT
-----------------------------------------------------
-*/
-.frame{
-  width:350px
-}
- 
+} 
 
     .jumbotron {
         position: relative;
@@ -311,30 +330,12 @@ BELT
   
   
 
-  .temp{
-    margin-top: 20px !important;
-    background-color: whitesmoke;
-    min-height: 10vh;
-    margin-top: 30px !important;
-  }
   
   
  
 
-  .smoke{
-    background-color: whitesmoke;
-    height:550px;
-  }
 
-  .card-img{
-    height:350px;
-    width:350px !important;
-  }
-
-  .trust{
-    height:60vh;
-    margin-top: -1px !important;
-  }
+  
   
   
 
@@ -346,31 +347,15 @@ BELT
 
   
 
-  .foot{
-    background-color:   #262626;
-    height: 500px;
-  }
+ 
 
-  .foot h2{
-    color: #FED706;
-    text-align: center;
-    font-weight: 700;
-  }
-
-  .foot p{
-    color:yellow;
-  }
-
-  .connect{
-    border:1px solid yellow;
-    background-color: yellow;
-  }
-
-  small p{
-    color: black;
-  }
+  
 
  
+
+
+
+
 
 
 /*our process css*/
@@ -415,11 +400,6 @@ ul.timeline > li:before {
    background-color: #F7F7F7;
    
 }
-
-
-
-
-
 
 
 #car-wrap {
@@ -469,11 +449,7 @@ ul.timeline > li:before {
 }
 
 @media(max-width:767px) {
-    .carousel-caption img {
-        width: 4rem;
-        border-radius: 4rem;
-        margin-top: 1rem
-    }
+   
 }
 
 #image-caption {
