@@ -43,7 +43,7 @@ hr.dividing {
      .jumbotron {
         position: relative;
         height: 100vh;
-        width: 100vw;
+       
         display:flex;
         align-items: center;
         justify-content: center;
@@ -135,7 +135,8 @@ hr.dividing {
     .footer-menu {
         background-color:  #FED706 !important;
         border-top-left-radius: 50%;
-        border-top-right-radius: 50%
+        border-top-right-radius: 50%;
+          
     }
     
     
@@ -210,7 +211,9 @@ hr.dividing {
         border-top-right-radius: 50%
     }
   
- 
+    footer {
+        background-color:#F7F7F7 !important;
+    }
   
 }
 
@@ -257,6 +260,11 @@ NAVBAR
     box-shadow: none;
 } 
 
+
+.big-head {
+    
+     background-color:#FBFBFB !important;
+}
     .jumbotron {
         position: relative;
         height: 100%;
@@ -264,7 +272,7 @@ NAVBAR
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: white !important;
+        background-color:#FBFBFB !important;
     }
 
 .jumbotron::before {
@@ -318,7 +326,7 @@ NAVBAR
   .btn{
     position: relative;
     margin-top: 45px;
-    margin-bottom: 30px !important;
+    margin-bottom: 30px;
     text-align: center !important;
       font-weight: 500;
     }
@@ -494,7 +502,9 @@ ul.timeline > li:before {
 
 
 
-
+ footer,.talk-to-us,.services,.our-projects {
+        background-color:#FBFBFB !important;
+    }
 
 
 
