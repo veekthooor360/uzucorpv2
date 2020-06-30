@@ -206,9 +206,9 @@ hr.dividing {
   
 
     .footer-menu {
-        background-color:  #FED706 !important;
-        border-top-left-radius: 50%;
-        border-top-right-radius: 50%
+        background-color:white!important;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
     }
   
     footer {
