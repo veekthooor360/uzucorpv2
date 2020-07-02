@@ -13,7 +13,7 @@
     
  <link rel="stylesheet" href="css/index.css" type="text/css">
 
-    <title>Uzucorp</title>
+    <title>uzu solutions</title>
   </head>
 
   <body>
@@ -36,8 +36,14 @@
             <a class="nav-link " href="#">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="products.html">Products</a>
+            <a class="nav-link " href="#">Products</a>
           </li>
+             <li class="nav-item">
+                        <a class="nav-link  " href="blog.html">Blog</a>
+                    </li>
+            <li class="nav-item">
+                        <a class="nav-link  " href="blog2.html">Blog2</a>
+                    </li>
           <li class="nav-item">
             <a class="nav-link  bg-yellow" href="#">chat with us</a>
              
@@ -285,9 +291,10 @@
                     <p class="card-text">payment gateway (crypto/fiat), manage inventory  and tracking(get alerts when  out of stock),accounting system all in one. </p>
                   </div>
                
-                     <div class="card-footer bg-yellow">
-                         <div class=" d-flex justify-content-center"><a class=" mx-2" href="#">coming soon </a></div>
+                     
                      </div>
+                  <div class="card-footer ">
+                         <div class=" d-flex justify-content-center"><a class=" mx-2" href="#">coming soon </a></div>
                      </div>
              </div>
           </div>
@@ -307,9 +314,10 @@
                     <p class="card-text">This is a coworking space located in FUTO owerri imo state,It also serves as our working offices where you can fin us plugging away</p>
                   </div>
                
-                     <div class="card-footer bg-yellow">
-                         <div class=" d-flex justify-content-center"><a class=" mx-2" href="#">coming soon </a></div>
+                     
                      </div>
+                  <div class="card-footer ">
+                         <div class=" d-flex justify-content-center"><a class=" mx-2" href="#">coming soon </a></div>
                      </div>
              </div>
           </div>
@@ -419,7 +427,21 @@
 
     <!--why us content-->
      
-                   
+             <div class='card card-profile text-center'>
+  <img alt='' class='card-img-top' src='https://unsplash.it/340/160?image=354'>
+  <div class='card-block'>
+    <img alt='' class='card-img-profile' src='https://it.gravatar.com/userimage/3434071/205a00fc16ae537b26b56f40790910fe.jpg?size=140'>
+    <h4 class='card-title'>
+      Nicola Pressi
+      <small>Front-end designer</small>
+    </h4>
+    <div class='card-links'>
+      <a class='fa fa-dribbble' href='#'></a>
+      <a class='fa fa-twitter' href='#'></a>
+      <a class='fa fa-facebook' href='#'></a>
+    </div>
+  </div>
+</div>      
             
                       
             
@@ -480,9 +502,9 @@
             </div>
                   
                    <div class="col d-flex justify-content-center mx-auto py-5">
-              <div class="card">
+              <div class="card b-0">
                 <div class="card-header card-header-warning">
-                  <h4 class="card-title">#4 Our Excellent Customer Support</h4>
+                  <h4 class="card-title">#4 Our Stellar Tech Support</h4>
                   
                 </div>
                 <div class="card-body table-responsive">
@@ -822,8 +844,9 @@
                         <div class="d-flex flex-column align-items-center">
                         <h3 class="text-center mb-3"> We'd love to work with you</h3> 
                         <p class="lead text-center">Let us know what we can do for you,We are always online. </p>
+            
                               
-                 <a type="submit" class="btn btn-success text-center  text-uppercase bg-yellow" href="about.html">start E-consultation</a>
+                 <a  class="btn  text-center  text-uppercase bg-yellow" href="" data-toggle="modal" data-target="#modalRegisterForm">start E-consultation</a>
                           
                            <p>+2348115716657</p>
                            </div>
@@ -1008,11 +1031,48 @@
 
     
   
+<div class="modal fade" id="modalRegisterForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Consultation</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <i class="fas fa-user prefix grey-text"></i>
+          <input type="text" id="orangeForm-name" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="orangeForm-name">Your name</label>
+        </div>
+        <div class="md-form mb-5">
+          <i class="fas fa-envelope prefix grey-text"></i>
+          <input type="email" id="orangeForm-email" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="orangeForm-email">Your email</label>
+        </div>
+
+        <div class="md-form mb-4">
+          <i class="fas fa-lock prefix grey-text"></i>
+          <input type="password" id="orangeForm-pass" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="orangeForm-pass">Your password</label>
+        </div>
+
+      </div>
+      <div class="modal-footer d-flex justify-content-center">
+        <button class="btn btn-deep-orange">Sign up</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 
     
 
 
+       
     
    
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
