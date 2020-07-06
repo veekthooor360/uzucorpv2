@@ -1,16 +1,7 @@
-var i = 0;
-var txt = 'We do not just write code, we build technical solutions for businesses'; /* The text */
-var speed = 50; /* The speed/duration of the effect in milliseconds */
-
-function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById("demo").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
-  }
-}
-
-typeWriter();
+$(document).ready(function(){
+    
+    
+    
 
 
 const nav = document.querySelectorAll('.nav-link')
@@ -27,3 +18,16 @@ nav.forEach(function(link){
   link.addEventListener('click', handleNavLinkClick);
 });
 
+    
+var typed = new Typed(".demo",{
+    strings: [" We design," ,"We build,","We deploy"],
+    smartBackspace:true,
+    typeSpeed:100,
+    backSpeed:100,
+    loop:true,
+    loopCount:Infinity,
+    startDelay:100
+    
+    
+});
+});
