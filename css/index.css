@@ -1,4 +1,8 @@
 /*general*/
+.reprate {
+    font-size: 15px;
+    font-weight: 500;
+}
 .bg-black {
     background-color:#263238 !important;
     color: #FED706;
@@ -111,7 +115,7 @@ hr.dividing {
 
       font-size: 28px !important;
   
-      font-weight: 300 !important;
+      font-weight: 200 !important;
   }
     .demo {
         font-size: 24px;
@@ -373,8 +377,11 @@ NAVBAR
 
       font-size: 38px;
       line-height: 54px;
-      font-weight: 600 !important;
+      font-weight: 400!important;
   }
+.demo {
+    font-weight: 600;
+}
 .steady{
     max-width: auto;
     max-height: 100px;
@@ -622,17 +629,17 @@ ul.timeline > li:before {
 }
 
 .work-content .w-more .w-ctegory {
-  color: #0078ff;
+  color: #FED706;
 }
 
 .work-content .w-like {
   font-size: 2.5rem;
-  color: #0078ff;
+  color:#FED706;
   float: right;
 }
 
 .work-content .w-like a {
-  color: #0078ff;
+  color: #FED706;
 }
 
 .work-content .w-like .num-like {
@@ -681,3 +688,175 @@ ul.timeline > li:before {
 		    border:0px;
 		    border-radius:0px;
 		}
+
+
+
+
+.footer-paralax {
+  padding: 4rem 0 0 0;
+}
+
+.contact-mf {
+  margin-top: 4rem;
+}
+
+@media (min-width: 767px) {
+  .contact-mf .box-pl2 {
+    margin-top: 3rem;
+    padding-left: 0rem;
+  }
+}
+
+.php-email-form .validate {
+  display: none;
+  color: red;
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite;
+}
+
+.php-email-form input, .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+.php-email-form input::focus, .php-email-form textarea::focus {
+  background-color:#FED706;
+}
+
+.php-email-form input {
+  padding: 20px 15px;
+}
+
+.php-email-form textarea {
+  padding: 12px 15px;
+  margin-bottom: 0;
+}
+
+.php-email-form button[type="submit"] {
+  background: #FED706;
+  border: 0;
+  padding: 10px 24px;
+  color: #000;
+  transition: 0.4s;
+}
+
+.php-email-form button[type="submit"]:hover {
+  background:#FED706;
+}
+
+@-webkit-keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*--------------------------------------------------------------
+# Blog
+--------------------------------------------------------------*/
+@media (min-width: 767px) {
+  .card-blog {
+    margin-bottom: 3rem;
+  }
+}
+
+
+/*Profile Card 3*/
+.profile-card-3 {
+  
+  position: relative;
+  
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  height:368px;
+  border:none;
+}
+.why-card .avatar {
+    width: 120px;
+    margin-top: -60px;
+    overflow: hidden;
+    border: 5px solid #fff;
+    border-radius: 50%;}
+.why-card .card-body {
+    text-align: center;
+}
+
+.why img {
+    vertical-align: middle;
+    border-style: none}
+.col-md-4.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+   
+    }
+
+
+.why-card .why-card-up{
+   
+    height: 120px;
+    overflow: hidden;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+.indigo.lighten-1 {
+    background-color: #FBFBFB !important;
+}
