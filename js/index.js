@@ -30,4 +30,6 @@ var typed = new Typed(".demo",{
     
     
 });
+    
+    
 });

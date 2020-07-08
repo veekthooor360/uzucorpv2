@@ -59,7 +59,7 @@
 
     <!--JUMBOTRON-->
 
-    <section class="big-head">
+    <section class="big-head" id="topSection">
       <div class="container">
         <div class="row pb-md-4 mb-md-4">
           <div class=" mt-5 pt-md-5 mb-md-5 col-12 px-1">
@@ -1183,9 +1183,15 @@
   </div>
   <!-- Copyright -->
 
+   
 </footer>
 <!-- Footer -->
-      
+      <div id="btnTop" class="fixed-action-btn smooth-scroll " style="bottom: 45px; right: 24px;">
+  <a href="#topSection" class="btn-floating btn-large  bg-yellow">
+    <i class="fa fa-arrow-up"></i>
+  </a>
+</div>
+   
       <!--mobile footer-->
     <div class="footer-mob  d-block d-sm-none d-lg-none d-md-none">
     
@@ -1219,7 +1225,6 @@
     </div>
       
 
-   
 
 
 <!--modal-->
@@ -1352,10 +1357,29 @@
   </div>
 </div>
 
+<script>
+      
+      
+      $(function() {
+  
+  var $btn = $('#btnTop');
+  var $home = $('#topSection');
+  var startpoint = $home.scrollTop() + $home.height();
+  
+  $(window).on('scroll', function() {
+    if($(window).scrollTop() > startpoint) {
+      $btn.show();
+    } else {
+      $btn.hide();
+    }
+  });
+});
+      
+      
+      
+      </script>
 
-
-    
-
+  
 
        
     
