@@ -20,10 +20,10 @@ nav.forEach(function(link){
 
     
 var typed = new Typed(".demo",{
-    strings: [" We design," ,"We build,","We deploy"],
+    strings: ["You dream it,We build it." ,"We'll always be there.","Call and we answer."],
     smartBackspace:true,
     typeSpeed:100,
-    backSpeed:100,
+    backSpeed:30,
     loop:true,
     loopCount:Infinity,
     startDelay:100
