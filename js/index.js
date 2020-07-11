@@ -20,7 +20,7 @@ nav.forEach(function(link){
 
     
 var typed = new Typed(".demo",{
-    strings: ["You dream it,We build it." ,"We'll always be there.","Call and we answer."],
+    strings: ["You dream it, We build it." ,"We'll always be there.","Call and we answer."],
     smartBackspace:true,
     typeSpeed:100,
     backSpeed:30,
