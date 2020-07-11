@@ -959,7 +959,7 @@ ul.timeline > li:before {
 }
 
 .box-comments .list-comments a {
-  color: #0078ff;
+  color: green;
 }
 
 .box-comments .list-comments span {
@@ -1007,7 +1007,7 @@ ul.timeline > li:before {
   content: '';
   position: absolute;
   height: 3px;
-  background-color: #0078ff;
+  background-color: green;
   width: 100px;
   bottom: -12px;
 }
