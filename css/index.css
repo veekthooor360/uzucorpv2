@@ -17,6 +17,7 @@
   }
 
 
+
 hr.dividing {
     border-top: 3px solid #FED706;
     max-width: 200px;
@@ -38,20 +39,16 @@ hr.dividing {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #0078ff;
+ 
   margin: 0 auto;
 }
- /*.card{
-    background: #FFFFFF;
-    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.25);
-    border-radius: 20px !important;
-  }*/
-/*
-------------------------------------------
 
-------------------------------------------
-*/
-/*Tiny device(like my current phone:tecno-y2*/
+
+.pagination .page-item.active .page-link {
+    background: #FED706 !important;
+    color: black;
+     border-color:#FED706;
+}
 
 
 @media (max-width:767px) {
@@ -621,7 +618,7 @@ ul.timeline > li:before {
 
 
 
-@media(max-width:767px) {
+@media(max-width:768px) {
     i {
         padding: 0.2rem;
     }
@@ -671,24 +668,17 @@ ul.timeline > li:before {
   font-size: .8rem;
 }
 
-.work-content .w-more .w-ctegory {
+
+
+
+
+.work-content  a {
+  color: #000;
+}
+
+.work-content  a:hover {
   color: #FED706;
 }
-
-.work-content .w-like {
-  font-size: 2.5rem;
-  color:#FED706;
-  float: right;
-}
-
-.work-content .w-like a {
-  color: #FED706;
-}
-
-.work-content .w-like .num-like {
-  font-size: .7rem;
-}
-
 .w-title {
   font-size: 1.2rem;
 }
@@ -844,6 +834,12 @@ ul.timeline > li:before {
     transform: rotate(360deg);
   }
 }
+
+
+
+
+
+
 
 /*--------------------------------------------------------------
 # Blog
@@ -1014,4 +1010,111 @@ ul.timeline > li:before {
  .list-comments.box-comments {list-style: none;
   padding-left: 0;
   margin-bottom: 0;
+}
+
+
+
+
+
+/*--------------------------------------------------------------
+# Project Details
+--------------------------------------------------------------*/
+.project-details {
+  padding-top: 30px;
+}
+
+.project-details .project-details-container {
+  position: relative;
+}
+
+.project-details .project-details-carousel {
+  position: relative;
+  z-index: 1;
+}
+
+
+
+.project-details .project-details-carousel .owl-dot {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ddd !important;
+}
+
+
+
+.project-details .project-info {
+  padding: 30px;
+  position: absolute;
+  right: 0;
+  bottom: -70px;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+
+.project-details .project-info h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.project-details .project-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+
+.project-details .project-info ul li + li {
+  margin-top: 10px;
+    
+}
+
+
+.project-details .project-info a {
+  
+    color: #4C4C4C;
+}
+.project-details .project-info a:hover {
+  
+    color: #FED706;
+}
+
+
+.project-details .project-description {
+  padding-top: 50px;
+}
+
+.project-details .project-description h2 {
+  width: 50%;
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.project-details .project-description p {
+  padding: 0 0 0 0;
+}
+
+
+@media (max-width: 768px) {
+  .project-details .project-description h2 {
+    width: 100%;
+  }
+  .project-details .project-info {
+    position: static;
+    margin-top: 30px;
+  }
+}
+
+
+footer a{
+    color: #4C4C4C;
+}
+footer a:hover {
+    color: #FED706;
 }
